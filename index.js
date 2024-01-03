@@ -1,8 +1,20 @@
-console.log('Fibonacci sequence');
+console.log('1. Fibonacci sequence');
 require('./src/1-FibonacciSequence/withoutRecursion.js');
-
-console.log('Factorial of a number');
+console.log('');
+console.log('');
+console.log('');
+console.log('2. Factorial of a number');
+console.log('');
 require('./src/2-FactorialOfNumber/withoutRecursion.js');
-
-console.log('Prime Number');
+console.log('');
+console.log('');
+console.log('');
+console.log('3. Prime Number');
+console.log('');
 require('./src/3-PrimeNumber/withoutRecursion.js');
+console.log('');
+console.log('');
+console.log('');
+console.log('3(a). Optimal Solution for Prime Number');
+console.log('');
+require('./src/3-PrimeNumber/optimalSolutionWithoutRecursion.js');
