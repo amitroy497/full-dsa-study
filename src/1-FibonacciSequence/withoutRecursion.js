@@ -8,10 +8,10 @@ const fibonacci = (n) => {
 	return fib;
 };
 
-console.log('fibonacci(2) = ', fibonacci(2));
-console.log('fibonacci(3) = ', fibonacci(3));
-console.log('fibonacci(5) = ', fibonacci(5));
-console.log('fibonacci(7) = ', fibonacci(7));
+console.log('fibonacci(2) = ', fibonacci(2)); // [0, 1]
+console.log('fibonacci(3) = ', fibonacci(3)); // [0, 1, 1]
+console.log('fibonacci(5) = ', fibonacci(5)); // [0, 1, 1, 2, 3]
+console.log('fibonacci(7) = ', fibonacci(7)); // [0, 1, 1, 2, 3, 5, 8]
 
 // The above code contains one for loop.
 // Big-O is Linear Time Complexity O(n).
